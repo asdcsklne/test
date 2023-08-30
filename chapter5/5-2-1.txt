@@ -1,0 +1,26 @@
+       drink size
+0       Cola    S
+1       Cola    M
+2  Grean Tea    L
+3       Milk    M
+
+
+       drink  size
+0       Cola     0
+1       Cola     1
+2  Grean Tea     2
+3       Milk     1
+
+
+       drink  size  drinkLabel
+0       Cola     0           0
+1       Cola     1           0
+2  Grean Tea     2           1
+3       Milk     1           2
+
+
+   size  drinkLabel  drink_Cola  drink_Grean Tea  drink_Milk
+0     0           0        True            False       False
+1     1           0        True            False       False
+2     2           1       False             True       False
+3     1           2       False            False        True
